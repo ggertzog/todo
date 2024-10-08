@@ -1,0 +1,51 @@
+.button {
+    border: none;
+    background-color: #6C63FF;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: #5850DD;
+    }
+
+    &_type_theme {
+        width: 38px;
+        height: 38px;
+        border-radius: 5px;
+    }
+
+    &_type_add {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    &_type_apply {
+        font-size: 18px;
+        font-weight: 600;
+        width: 97px;
+        height: 38px;
+        border-radius: 5px;
+    }
+
+    &_type_cancel {
+        font-size: 18px;
+        font-weight: 600;
+        width: 97px;
+        height: 38px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 2px solid #6C63FF;
+        color: #6C63FF;
+
+        &:hover {
+            background-color: #fff;
+            border: 2px solid #5850DD;
+            color: #5850DD;
+        }
+    }
+}
