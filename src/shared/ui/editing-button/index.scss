@@ -1,0 +1,17 @@
+.editing-button {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    color: #000;
+    cursor: pointer;
+
+    &_type_pen:hover svg {
+        color: #6C63FF;
+    }
+
+    &_type_trash:hover svg {
+        color: #ef4848;
+    }
+}

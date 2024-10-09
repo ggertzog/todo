@@ -1,0 +1,10 @@
+.popup {
+    padding: 18px 30px;
+    display: none;
+    flex-direction: column;
+    gap: 128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
