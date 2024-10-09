@@ -1,0 +1,14 @@
+.main {
+    padding: 40px 0;
+    width: 960px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        margin-bottom: 18px;
+        font-family: sans-serif;
+        font-size: 36px;
+    }
+}
