@@ -2,7 +2,7 @@ import React, { FC, useEffect, useState } from 'react';
 import { Popup } from '../..';
 import { Input } from '@/shared/ui/input';
 import { useAppDispatch, useAppSelector } from '@/app/hooks/redux';
-import { editNote } from '../../popup-add/reducer/NoteSlice';
+import { editNote } from '../../reducer/NoteSlice';
 
 interface PopupEditProps {
     isOpen: boolean;

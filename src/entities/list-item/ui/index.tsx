@@ -3,7 +3,7 @@ import './index.scss';
 import { Checkbox } from '@/shared/ui/checkbox';
 import { EditingButton } from '@/shared/ui/editing-button';
 import { useAppDispatch } from '@/app/hooks/redux';
-import { deleteNote } from '@/features/popup/popup-add/reducer/NoteSlice';
+import { deleteNote } from '@/features/popup/reducer/NoteSlice';
 
 interface ListItemProps {
   id: number;

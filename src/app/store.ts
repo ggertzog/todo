@@ -1,5 +1,5 @@
 import { configureStore } from "@reduxjs/toolkit";
-import noteReducer from '@/features/popup/popup-add/reducer/NoteSlice';
+import noteReducer from '@/features/popup/reducer/NoteSlice';
 
 const store = configureStore({
     reducer: {

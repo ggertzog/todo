@@ -3,7 +3,7 @@ import './index.scss';
 import { Popup } from '@/features/popup';
 import { Input } from '@/shared/ui/input';
 import { useAppDispatch, useAppSelector } from '@/app/hooks/redux';
-import { addNote } from '../reducer/NoteSlice';
+import { addNote } from '../../reducer/NoteSlice';
 
 interface PopupAddProps {
     isOpen: boolean;
