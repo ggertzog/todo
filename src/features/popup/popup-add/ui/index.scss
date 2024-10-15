@@ -1,0 +1,19 @@
+.popup__title {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.popup__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.popup__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

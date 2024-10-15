@@ -14,3 +14,11 @@ body {
   height: 100vh;
   background-color: #fff;
 }
+
+ul, ol {
+  list-style: none;
+}
+
+ul li, ol li {
+  text-decoration: none;
+}

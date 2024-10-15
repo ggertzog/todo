@@ -1,0 +1,11 @@
+.overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: #0000008f;
+    z-index: 1;
+}
+
+.overlay_opened {
+    display: block;
+}

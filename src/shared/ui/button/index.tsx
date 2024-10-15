@@ -4,12 +4,13 @@ import './index.scss';
 interface ButtonProps {
   variant: string;
   children: React.ReactNode;
-  onClick: () => void;
+  onClick?: () => void;
+  type?: "submit" | "reset" | "button" | undefined;
 }
 
-export const Button: FC<ButtonProps> = ({variant, children, onClick}) => {
+export const Button: FC<ButtonProps> = ({variant, children, onClick, type}) => {
   return (
-    <button className={`button button_type_${variant}`} onClick={onClick}>
+    <button type={type} className={`button button_type_${variant}`} onClick={onClick}>
       {children}
     </button>
   )

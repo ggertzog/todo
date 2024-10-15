@@ -2,9 +2,21 @@
     padding: 40px 0;
     width: 960px;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-rows: 135px auto 112px;
+    // align-items: center;
+    // justify-content: center;
+
+    &__box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__box:nth-of-type(2) {
+        align-items: end;
+    }
 
     &__title {
         margin-bottom: 18px;

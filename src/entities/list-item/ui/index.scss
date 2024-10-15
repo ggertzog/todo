@@ -1,0 +1,20 @@
+.item {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+}
+
+.item__text {
+    display: flex;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.item__box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

@@ -1,0 +1,27 @@
+.popup {
+    padding: 18px 30px;
+    width: 500px;
+    height: 289px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    // gap: 128px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.popup_opened {
+    display: flex;
+}
+
+.popup__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
