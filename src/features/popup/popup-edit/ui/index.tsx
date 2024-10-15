@@ -3,7 +3,6 @@ import { Popup } from '../..';
 import { Input } from '@/shared/ui/input';
 import { useAppDispatch, useAppSelector } from '@/app/hooks/redux';
 import { editNote } from '../../popup-add/reducer/NoteSlice';
-import { INote } from '@/entities/list-item/model/INote';
 
 interface PopupEditProps {
     isOpen: boolean;
@@ -35,14 +34,14 @@ export const PopupEdit: FC<PopupEditProps> = ({isOpen, handleClosePopup, noteId}
         e.preventDefault();
         if (noteId !== null && newValue) {
             const updatedNote = {
-                id: noteId, // Убедитесь, что noteId передается правильного типа
+                id: noteId, 
                 note: newValue,
             }
-            dispatch(editNote(updatedNote)); // Диспатч для обновления заметки
-            setNewValue(''); // Очищаем поле
-            handleClosePopup(); // Закрываем попап
+            dispatch(editNote(updatedNote));
+            setNewValue('');
+            handleClosePopup();
         } else {
-            alert('Ошибка: не удалось обновить заметку. Пожалуйста, попробуйте еще раз.'); // Обработайте случай с null
+            alert('Ошибка: не удалось обновить заметку. Пожалуйста, попробуйте еще раз.'); 
         }
     }
 

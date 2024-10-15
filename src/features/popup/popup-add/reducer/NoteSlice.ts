@@ -21,9 +21,9 @@ export const noteSlice = createSlice({
             state.notes = state.notes.filter(note => note.id !== action.payload);
         },
         editNote: (state, action: PayloadAction<INote>) => {
-            const index = state.notes.findIndex(note => note.id === action.payload.id); // Находим индекс заметки
-            if (index !== -1) { // Если заметка найдена
-                state.notes[index] = action.payload; // Обновляем заметку
+            const index = state.notes.findIndex(note => note.id === action.payload.id);
+            if (index !== -1) { 
+                state.notes[index] = action.payload;
             }
         },
     }

@@ -20,7 +20,7 @@ export const ListItem: FC<ListItemProps> = ({ id, note, handleOpenEditPopup }) =
   }
 
   const openEditPopup = () => {
-    handleOpenEditPopup(id); // Передаем id редактируемой заметки
+    handleOpenEditPopup(id);
   }
 
   return (

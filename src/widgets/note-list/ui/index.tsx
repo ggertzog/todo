@@ -1,7 +1,7 @@
 import React, { FC, useState } from 'react';
 import './index.scss';
 import { ListItem } from '@/entities/list-item/ui';
-import { useAppDispatch, useAppSelector } from '@/app/hooks/redux';
+import { useAppSelector } from '@/app/hooks/redux';
 import { PopupEdit } from '@/features/popup/popup-edit';
 import { Overlay } from '@/shared/ui/overlay';
 
